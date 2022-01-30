@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+form {
+  color: white !important;
+}
+
+#user_info,
+#edit_card {
+  margin-top: 100px !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about {
+  margin-top: 80px;
+}
+
+.navBar {
+  box-shadow: 0px 0px 15px 1px #f3b973;
+}
+
+#login,
+#sign_up,
+#add_card,
+#edit_card {
+  margin-top: 100px !important;
+  box-shadow: 0px 0px 5px 1px #f3b973 !important;
+}
+
+#exampleCheck1 {
+  float: initial !important;
+  margin-right: 5px !important;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 5px 2px #4b4b4b;
+}
+
+.cardsComponent {
+  box-shadow: 0px 0px 5px 2px #4b4b4b;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+.btnClass {
+  background-color: Transparent;
+  color: aliceblue;
+  border: solid 1px #8cd5ff;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  width: 80px;
+}
+
+.favoriteBtn {
+  background-color: Transparent;
+  color: aliceblue;
+  border: solid 1px #8cd5ff;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.UnFavoriteBtn {
+  background-color: Transparent;
+  color: aliceblue;
+  border: solid 1px rgb(255, 42, 88);
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btnClassDelete {
+  background-color: Transparent;
+  color: aliceblue;
+  border: solid 1px rgb(255, 42, 88);
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  width: 80px;
+}
+
+.btnClass:hover {
+  background-color: #8cd5ff;
+  color: black;
+}
+
+.btnClassDelete:hover {
+  background-color: rgb(255, 27, 76);
+  color: black;
+}
+
+.title_of_page {
+  margin-top: 40px !important;
+}
+
+.cards,
+.favorites,
+.user_info {
+  margin-top: 80px !important;
+}
